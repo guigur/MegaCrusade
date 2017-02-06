@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Mega Man 2 Intro Opening Theme HQ_data" version="1.3.0" audacityversion="2.1.0" sel0="42.2253920516" sel1="42.2253920516" vpos="0" h="0.0000000000" zoom="32.0525935206" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags/>
+	<wavetrack name="Mega Man 2 Intro Opening Theme HQ." channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1887685">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009c5.au" len="166736" min="-0.590675" max="0.497956" rms="0.118231"/>
+				</waveblock>
+				<waveblock start="166736">
+					<simpleblockfile filename="e0000b23.au" len="262144" min="-0.618617" max="0.485416" rms="0.127712"/>
+				</waveblock>
+				<waveblock start="428880">
+					<simpleblockfile filename="e0000957.au" len="262144" min="-0.617201" max="0.46221" rms="0.127493"/>
+				</waveblock>
+				<waveblock start="691024">
+					<simpleblockfile filename="e0000bad.au" len="262144" min="-0.60775" max="0.548855" rms="0.126654"/>
+				</waveblock>
+				<waveblock start="953168">
+					<simpleblockfile filename="e00002ba.au" len="262144" min="-0.489279" max="0.568942" rms="0.123843"/>
+				</waveblock>
+				<waveblock start="1215312">
+					<simpleblockfile filename="e0000ccc.au" len="262144" min="-0.510345" max="0.609668" rms="0.130531"/>
+				</waveblock>
+				<waveblock start="1477456">
+					<simpleblockfile filename="e0000cb9.au" len="262144" min="-0.634808" max="0.524942" rms="0.127797"/>
+				</waveblock>
+				<waveblock start="1739600">
+					<simpleblockfile filename="e0000d65.au" len="148085" min="-0.60221" max="0.528969" rms="0.101004"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mega Man 2 Intro Opening Theme HQ." channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1758319">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b71.au" len="176095" min="-0.441173" max="0.470085" rms="0.140227"/>
+				</waveblock>
+				<waveblock start="176095">
+					<simpleblockfile filename="e0000e75.au" len="176096" min="-0.368896" max="0.468176" rms="0.140209"/>
+				</waveblock>
+				<waveblock start="352191">
+					<simpleblockfile filename="e000091c.au" len="262144" min="-0.484053" max="0.52514" rms="0.152082"/>
+				</waveblock>
+				<waveblock start="614335">
+					<simpleblockfile filename="e0000c12.au" len="262144" min="-0.474388" max="0.548394" rms="0.15496"/>
+				</waveblock>
+				<waveblock start="876479">
+					<simpleblockfile filename="e0000d86.au" len="262144" min="-0.462143" max="0.460612" rms="0.159741"/>
+				</waveblock>
+				<waveblock start="1138623">
+					<simpleblockfile filename="e0000f35.au" len="262144" min="-0.465505" max="0.554851" rms="0.140913"/>
+				</waveblock>
+				<waveblock start="1400767">
+					<simpleblockfile filename="e00000d9.au" len="262144" min="-0.482728" max="0.530467" rms="0.138172"/>
+				</waveblock>
+				<waveblock start="1662911">
+					<simpleblockfile filename="e0000011.au" len="95408" min="-0.641424" max="0.522762" rms="0.118613"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Start_the_game" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="22050" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="47232">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d24.au" len="47232" min="-0.394097" max="0.375057" rms="0.088782"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

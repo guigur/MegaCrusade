@@ -1,0 +1,3 @@
+﻿  mediaHandler.cpp
+..\GameEngine\KekEngine\src\mediaHandler.cpp(43): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+..\GameEngine\KekEngine\src\mediaHandler.cpp(65): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data

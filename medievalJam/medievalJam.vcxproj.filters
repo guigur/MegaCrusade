@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameEngine">
+      <UniqueIdentifier>{9194d0f0-e185-451c-bf53-05d89288a812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\animations">
+      <UniqueIdentifier>{d98dc7c4-08e0-444a-9c40-2ca091cfff8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\collisions">
+      <UniqueIdentifier>{749c5174-e267-485a-b1b7-8f09bbaac6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\frameclock">
+      <UniqueIdentifier>{81d864cc-2165-43c5-9f41-1a0a96b2d7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\KekEngine">
+      <UniqueIdentifier>{ae625527-02d8-4cf7-9592-924872323185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\KekEngine\includes">
+      <UniqueIdentifier>{a55a1d0d-8f1d-461d-8a81-67f365d932b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\KekEngine\src">
+      <UniqueIdentifier>{68d077a8-ae73-4d7b-b63e-c627f9dce907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\medias">
+      <UniqueIdentifier>{d0541653-3811-4e46-9e81-15c851fd5e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\medias\fonts">
+      <UniqueIdentifier>{64cdf360-bcc6-42ca-8be8-8df391ada934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\medias\maps">
+      <UniqueIdentifier>{8d948670-6ef2-4ce6-8bba-8621e33b6b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\medias\textures">
+      <UniqueIdentifier>{58754332-5f36-4fc6-afd7-b5fa71c757df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\medias\music">
+      <UniqueIdentifier>{b0a1439b-d1d3-48a9-b929-66ddb04bd969}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\animations\AnimatedSprite.cpp">
+      <Filter>Source Files\GameEngine\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\animations\Animation.cpp">
+      <Filter>Source Files\GameEngine\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\collisions\Collision.cpp">
+      <Filter>Source Files\GameEngine\collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\cameraHandler.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\entity.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\graphicHandler.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\livingEntity.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\mediaHandler.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\player.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\KekEngine\src\tilesetHandler.cpp">
+      <Filter>Source Files\GameEngine\KekEngine\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="obs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\animations\AnimatedSprite.hpp">
+      <Filter>Source Files\GameEngine\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\animations\Animation.hpp">
+      <Filter>Source Files\GameEngine\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\collisions\Collision.h">
+      <Filter>Source Files\GameEngine\collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\frameclock\clockHUD.h">
+      <Filter>Source Files\GameEngine\frameclock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\frameclock\frameClock.h">
+      <Filter>Source Files\GameEngine\frameclock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\livingEntity.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\mediaHandler.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\player.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\tilesetHandler.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\cameraHandler.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\entity.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\KekEngine\includes\graphicHandler.h">
+      <Filter>Source Files\GameEngine\KekEngine\includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\textures\tileset.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Pictures\photo.jpg">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\flag_portugal_fr1.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\frisk.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\portugal_flag_spritesheet.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\spritesheet.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\tileset.gif">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\titleObs.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\angry crusader.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\mediavial_jam_title.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\scroll_intro.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\mega_crusade_logo.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+    <Image Include="..\GameEngine\medias\textures\Castle_3.png">
+      <Filter>Source Files\medias\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\GameEngine\medias\fonts\DTM-Mono.otf">
+      <Filter>Source Files\medias\fonts</Filter>
+    </Font>
+    <Font Include="..\GameEngine\medias\fonts\DTM-Sans.otf">
+      <Filter>Source Files\medias\fonts</Filter>
+    </Font>
+    <Font Include="..\GameEngine\medias\fonts\keep_calm.ttf">
+      <Filter>Source Files\medias\fonts</Filter>
+    </Font>
+    <Font Include="..\GameEngine\medias\fonts\megaman_2.ttf">
+      <Filter>Source Files\medias\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\GameEngine\medias\maps\base">
+      <Filter>Source Files\medias\maps</Filter>
+    </None>
+    <None Include="..\GameEngine\medias\music\Median_test.ogg">
+      <Filter>Source Files\medias\music</Filter>
+    </None>
+    <None Include="..\GameEngine\medias\music\megaman2intro.ogg">
+      <Filter>Source Files\medias\music</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\GameEngine\medias\music\MegaMan3StageSelectTheme.mp3">
+      <Filter>Source Files\medias\music</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
