@@ -76,8 +76,11 @@ void     GraphicHandler::loop()
         this->_window->close();
         return;
     }
-    if (_fpsDebug)
-        this->_window->draw(*this->_clockHUD);
+	if (_fpsDebug)
+	{
+		this->_window->draw(*this->_clockHUD);
+		this->_clockHUD->setCameraPos(this->getCameraPos());
+	}
     if (!_playerMoved && _player)
         this->_player->changeDirection(LivingEntity::Direction::STILL);
     _playerMoved = false;
@@ -292,6 +295,7 @@ void          GraphicHandler::setFpsDebug(const bool &option)
 
 void          GraphicHandler::toggleFpsDebug()
 {
+
 	if (this->_fpsDebug == true)
 		this->_fpsDebug = false;
 	else

@@ -5,6 +5,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "frameClock.h"
+#include "../KekEngine/includes/graphicHandler.h"
 
 class ClockHUD : public sf::Drawable
 {
@@ -29,6 +30,11 @@ public:
 public:
     float   _posX;
     float   _posY;
+	sf::Vector2f _cameraPos;
+	void setCameraPos(sf::Vector2f pos)
+	{
+		_cameraPos = pos;
+	}
     void setPosXY(const float &posX, const float &posY)
     {
         _posX = posX;
@@ -74,7 +80,7 @@ private:
 
     Stats_t build() const
     {
-        const int count = 10;
+        const int count = 12;
         const Stat stats[count] = {
                 { sf::Color::Yellow, format("Time",  "(sec)", m_clock->getTotalFrameTime().asSeconds())        },
                 { sf::Color::White,  format("Frame", "",      m_clock->getTotalFrameCount())                   },
@@ -85,7 +91,9 @@ private:
                 { sf::Color::Cyan,   format("Delta", "(ms)",  m_clock->getLastFrameTime().asMilliseconds())    },
                 { sf::Color::Cyan,   format("min.",  "(ms)",  m_clock->getMinFrameTime().asMilliseconds())     },
                 { sf::Color::Cyan,   format("avg.",  "(ms)",  m_clock->getAverageFrameTime().asMilliseconds()) },
-                { sf::Color::Cyan,   format("max.",  "(ms)",  m_clock->getMaxtFrameTime().asMilliseconds())    }
+                { sf::Color::Cyan,   format("max.",  "(ms)",  m_clock->getMaxtFrameTime().asMilliseconds())    },
+				{ sf::Color::Red,   format("Pos.",  "X",  _cameraPos.x) },
+				{ sf::Color::Red,   format("Pos.",  "Y",  _cameraPos.y) },
         };
         return Stats_t(&stats[0], &stats[0] + count);
     }

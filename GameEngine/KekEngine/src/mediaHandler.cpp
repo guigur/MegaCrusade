@@ -84,6 +84,12 @@ const int   MediaHandler::addNewFont(const std::string &path, const std::string 
     return (0);
 }
 
+const int   MediaHandler::addNewStyleText(MediaHandler::t_styleText &style, const std::string &name)
+{
+	this->_styleText.emplace_back(std::make_pair(new MediaHandler::t_styleText, name));
+	return (0);
+}
+
 const int   MediaHandler::addNewMusic(const std::string &path, const std::string &name)
 {
 	this->_music.emplace_back(std::make_pair(new sf::Music, name));
@@ -159,7 +165,6 @@ sf::Sprite*  MediaHandler::getSprite(const std::string &name)
 
 sf::Font* MediaHandler::getFont(const std::string &name)
 {
-   /* std::cout << "get font here" << std::endl;*/
     if (this->_fonts.size() == 0)
         return (NULL);
     auto it = std::find_if(this->_fonts.begin(), this->_fonts.end(), [&name](const std::pair<sf::Font *, const std::string>& obj) {return obj.second == name;});
@@ -170,6 +175,20 @@ sf::Font* MediaHandler::getFont(const std::string &name)
         std::cout << "Couldn't find a font for " << name << " in the registered fonts" << std::endl;
         return (NULL);
     }
+}
+
+MediaHandler::t_styleText* MediaHandler::getStyleText(const std::string &name)
+{
+	if (this->_styleText.size() == 0)
+		return (NULL);
+	auto it = std::find_if(this->_styleText.begin(), this->_styleText.end(), [&name](const std::pair<MediaHandler::t_styleText *, const std::string>& obj) {return obj.second == name; });
+	if (it != this->_styleText.end())
+		return (it->first);
+	else
+	{
+		std::cout << "Couldn't find a style text for " << name << " in the registered style text" << std::endl;
+		return (NULL);
+	}
 }
 
 sf::Music* MediaHandler::getMusic(const std::string &name)

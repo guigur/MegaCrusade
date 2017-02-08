@@ -35,7 +35,7 @@ public:
     const int   addNewSprite(sf::Texture *texture, const std::string &spriteName, const bool isGui=false, const sf::Vector2i &position=sf::Vector2i(0, 0));
     const int   addNewShape(sf::Shape *shape, const std::string &shapeName, const bool isGui=false, const sf::Vector2i &position=sf::Vector2i(0, 0));
     const int   addNewFont(const std::string &path, const std::string &name);
-	const int   addNewStyleText(MediaHandler::t_styleText, const std::string &name);
+	const int   addNewStyleText(MediaHandler::t_styleText &style, const std::string &name);
 	const int   addNewMusic(const std::string &path, const std::string &name);
 	//const int   addNewSoundBuffer(const std::string &path, const std::string &name);
 	//const int   addNewSound(const std::string &path, const std::string &name);
