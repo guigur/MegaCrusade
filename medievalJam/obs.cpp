@@ -18,7 +18,7 @@ const int   Obs::menu()
 	sf::Time elapsed1 = this->_clock.getElapsedTime();
 	this->_graphicHandler->draw(this->_introText);
 	this->_graphicHandler->draw(this->_introText2);
-
+l
 	if (this->_stateMenu == 0)
 	{
 		if (elapsed1.asSeconds() > 3.0f)
