@@ -1,4 +1,4 @@
-//
+
 // Created by margoul_1 on 27/03/16.
 // Modified in gameJam by guigur on 05/02/17.
 //
@@ -19,37 +19,34 @@ const int   Obs::menu()
 	this->_graphicHandler->draw(this->_introText);
 	this->_graphicHandler->draw(this->_introText2);
 
-	
-
-
 	if (this->_stateMenu == 0)
 	{
-		if (elapsed1.asSeconds() > 0.0f)
+		if (elapsed1.asSeconds() > 3.0f)
 		{
 			this->_introText.setString(this->_introSentences[0]);
 			this->_introText2.setString(this->_introSentences[1]);
 		}
-		if (elapsed1.asSeconds() > 4.5f)
+		if (elapsed1.asSeconds() > 7.0f)
 		{
 			this->_introText.setString(this->_introSentences[2]);
 			this->_introText2.setString(this->_introSentences[3]);
 		}
-		if (elapsed1.asSeconds() > 9.0f) 
+		if (elapsed1.asSeconds() > 11.0f) 
 		{
 			this->_introText.setString(this->_introSentences[4]);
 			this->_introText2.setString(this->_introSentences[5]);
 		}
-		if (elapsed1.asSeconds() > 13.5f) 
+		if (elapsed1.asSeconds() > 15.0f) 
 		{
 			this->_introText.setString(this->_introSentences[6]);
 			this->_introText2.setString(this->_introSentences[7]);
 		}
-		if (elapsed1.asSeconds() > 18.0f) 
+		if (elapsed1.asSeconds() > 19.0f) 
 		{
 			this->_introText.setString(this->_introSentences[8]);
 			this->_introText2.setString(this->_introSentences[9]);
 		}
-		if (elapsed1.asSeconds() > 22.5f)
+		if (elapsed1.asSeconds() > 23.0f)
 		{
 			this->_introText.setString(this->_introSentences[10]);
 			this->_introText2.setString("");
